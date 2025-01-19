@@ -8,4 +8,4 @@ per_km = 12
 
 fuel_needed = distance/per_km
 
-print(f"{fuel_needed:.3f}")
+print(f" {fuel_needed:.3f} ")
