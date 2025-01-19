@@ -1,11 +1,8 @@
-spent_time = int(input(" Enter the spent time (hours): "))
+t = int(input())
+avg_s = int(input())
 
-average_speed = int(input(" Enter the evrage speed (km/h): "))
+dist = avg_s * t
 
-distance = spent_time * average_speed
+fuel_req = dist/12
 
-per_km = 12
-
-fuel_needed = distance/per_km
-
-print(f" {fuel_needed:.3f} ")
+print(f"{fuel_req:.3f}")
